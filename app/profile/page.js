@@ -13,7 +13,7 @@ const Page = () => {
     <div className="w-full h-screen p-5 overflow-hidden">
       <div className="pt-16 h-full">
         {/* Container for user-related components */}
-        <div className="flex flex-col gap-5 h-full w-full sm:w-2/3 md:w-1/2 lg:w-2/5 mx-auto">
+      <div className="w-full sm:w-2/3 md:w-1/2 lg:w-1/4 p-5 rounded mx-auto flex flex-col gap-5" >
           {/* UserCard component for managing user details */}
           <UserCard auth={auth} />
           

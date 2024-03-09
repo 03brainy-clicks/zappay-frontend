@@ -74,5 +74,4 @@ const DropDown = ({ title, value, options, setValue, icon }) => {
   );
 };
 
-// Export the 'DropDown' component for use in other parts of the application
 export default DropDown;

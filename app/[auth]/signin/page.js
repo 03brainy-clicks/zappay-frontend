@@ -66,7 +66,7 @@ const SigninPage = () => { // Updated component name to reflect its purpose
   // JSX for rendering the signin form
   return (
     <div className="w-screen h-screen flex items-center p-5 justify-center">
-      <div className="w-full sm:w-2/3 md:w-1/2 lg:w-2/5 p-5 rounded bg-white">
+      <div className="w-full sm:w-2/3 md:w-1/2 lg:w-1/4 p-5 rounded bg-white">
         <h2 className="font-bold text-2xl mb-2 tracking-tight flex items-center justify-center gap-1">
           Welcome to Zap <WalletIcon className="w-8 text-orange-600" />
         </h2>
